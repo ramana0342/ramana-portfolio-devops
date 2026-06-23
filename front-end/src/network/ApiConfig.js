@@ -6,11 +6,9 @@ const getBaseURL = () => {
   if (host === "localhost" || host === "127.0.0.1") {
     return `http://localhost:5000/${portfolioBaseURL}`;
   }
-
   return `http://54.237.194.213:5000/${portfolioBaseURL}`;
 
 };
-
 export default getBaseURL;
 
 export const getSocketURL = () => {
