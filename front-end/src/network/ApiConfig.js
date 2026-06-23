@@ -7,7 +7,7 @@ const getBaseURL = () => {
     return `http://localhost:5000/${portfolioBaseURL}`;
   }
 
-  return `https://ramana-portfolio-api.onrender.com/${portfolioBaseURL}`;
+  return `http://54.237.194.213:5000/${portfolioBaseURL}`;
 
 };
 
@@ -20,5 +20,5 @@ export const getSocketURL = () => {
     return "http://localhost:5000";
   }
 
-  return "https://ramana-portfolio-api.onrender.com";
+  return "http://54.237.194.213:5000";
 };

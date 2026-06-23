@@ -29,7 +29,7 @@ setupChatSocket(io);
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://ramana-portfolio-eight.vercel.app"
+  "http://54.237.194.213:3000"
 ];
 
 app.use(cors({
