@@ -51,7 +51,7 @@ app.use("/my-portfolio/api/admin", adminRoutes);
 app.use("/my-portfolio/api/chat", chatRoutes);
 
 app.get("/", (req, res) => {
-  res.send("API Running");
+  res.send("API Running - Version 2");
 });
 
 const PORT = process.env.PORT || 6000;
