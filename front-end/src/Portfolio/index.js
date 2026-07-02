@@ -47,7 +47,7 @@ const Index = () => {
   useEffect(() => {
 
     const options = {
-      strings: ["Front-end Developer", "Back-end Developer", "React Developer", "Full Stack Developer"],
+      strings: ["Front-end Developer", "Back-end Developer", "React Developer", "Full Stack Developer", "DevOps Enthusiast"],
       typeSpeed: 50,
       backSpeed: 25,
       backDelay: 700,
